@@ -9,4 +9,3 @@ const tail = (value) => {
 };
 
 module.exports = tail;
- // no need to capture the return value since we are not checking it
