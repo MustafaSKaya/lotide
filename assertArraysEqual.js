@@ -6,7 +6,6 @@ const assertArraysEqual = function (actual, expected) {
   }
 };
 
-module.exports = assertArraysEqual;
 
 const eqArrays = (arr1, arr2) => {
   if (arr1.length === arr2.length) {
@@ -24,6 +23,7 @@ const eqArrays = (arr1, arr2) => {
   }
 };
 
+module.exports = assertArraysEqual;
 
 /*
 assertArraysEqual([1, 2, 3], [1, 2, 3]);
