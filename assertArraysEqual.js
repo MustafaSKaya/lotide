@@ -6,7 +6,6 @@ const assertArraysEqual = function (actual, expected) {
   }
 };
 
-
 const eqArrays = (arr1, arr2) => {
   if (arr1.length === arr2.length) {
     if (arr1.length >= 1) {

@@ -1,5 +1,5 @@
 const head = function(argumentOne, argumentTwo) {
-  if (argumentOne.length > 1) {
+  if (argumentOne.length >= 1) {
     return argumentOne[0];
   } else if (argumentOne.length === 0) {
     return undefined;
@@ -7,4 +7,6 @@ const head = function(argumentOne, argumentTwo) {
     return argumentOne;
   }
 };
+
+//console.log(head(['5'], '5'));
  module.exports = head;
