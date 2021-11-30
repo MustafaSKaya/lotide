@@ -12,7 +12,7 @@ const assertArraysEqual = require('../assertArraysEqual');
 const tail = require('../tail');
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 
-describe("if its not an empty array, function should return every element besides the first element", () => {
+describe("(tailTest) if its not an empty array, function should return every element besides the first element", () => {
     it("should return [Lighthouse, Labs] from [Yo Yo, Lighthouse, Labs]", () => {
       assert.strictEqual(assertArraysEqual(tail(words), ["Lighthouse", "Labs"]));
     });

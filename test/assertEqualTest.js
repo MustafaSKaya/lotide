@@ -8,7 +8,7 @@ assertEqual(1, 1);
 const assert = require('chai').assert;
 const assertEqual = require('../assertEqual');
 
-describe("if both elements are equal and String/Number", () => {
+describe("(assertEqualTest) if both elements are equal and String/Number", () => {
   it("should return false for comparison of Lighthouse Labs and Bootcamp", () => {
     assert.strictEqual(assertEqual("Lighthouse Labs", "Bootcamp"));
   });

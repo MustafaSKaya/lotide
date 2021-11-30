@@ -23,16 +23,16 @@ const eqArrays = (arr1, arr2) => {
 };
 
 
-const middle = function(midArray) {
-  let midd = Math.floor(midArray.length / 2);
+const middle = function(middleArr) {
   let arr = [];
-  if (midArray.length <= 2) {
+  let middleElem = Math.floor(middleArr.length / 2);
+  if (middleArr.length <= 2) {
     return [];
-  } else if (midArray.length % 2 === 1) {
-    arr.push(midArray[midd]);
-  } else if (midArray.length % 2 === 0) {
-    arr.push(midArray[midd - 1], midArray[midd]);
-  }
+  } else if (middleArr.length % 2 === 0) {
+    arr.push(middleArr[middleElem - 1], middleArr[middleElem]);
+  } else if (middleArr.length % 2 === 1) {
+    arr.push(middleArr[middleElem]);
+  } 
   return arr;
 };
 

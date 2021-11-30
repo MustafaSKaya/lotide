@@ -14,7 +14,7 @@ const assert = require('chai').assert;
 const middle = require('../middle');
 const assertArraysEqual = require('../assertArraysEqual');
 
-describe("function should return the middle element(s) if it has more than two elements", () => {
+describe("(middleTest) function should return the middle element(s) if it has more than two elements", () => {
     it("should return []", () => {
       assert.strictEqual(assertArraysEqual(middle([1]), []));
     });

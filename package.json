@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@m_said_k/lotide",
   "version": "1.0.0",
   "description": "",
   "main": "assertArraysEqual.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MustafaSKaya/lotide/issues"
   },
-  "homepage": "https://github.com/MustafaSKaya/lotide#readme"
+  "homepage": "https://github.com/MustafaSKaya/lotide#readme",
+  "dependencies": {
+    "my-package": "0.0.0"
+  }
 }

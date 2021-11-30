@@ -12,7 +12,7 @@ const assert = require('chai').assert;
 const eqArrays = require('../eqArrays');
 const assertEqual = require('../assertEqual');
 
-describe("there is two arrays to compare", () => {
+describe("(eqArraysTest) there is two arrays to compare", () => {
     it("should return passed for comparison of [1, 2, 3] and [1, 2, 3]", () => {
       assert.strictEqual(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true));
     });

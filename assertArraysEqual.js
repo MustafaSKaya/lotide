@@ -1,3 +1,5 @@
+// The whole lotide project was done with my cohort-mate and sister, Zeynep Kaya, so similarities between our codes are quite a lot.
+
 const assertArraysEqual = function (actual, expected) {
   if (eqArrays(actual, expected)) {
     console.log(`✅✅✅ Assertion Passed: [${actual}] === [${expected}]`);
